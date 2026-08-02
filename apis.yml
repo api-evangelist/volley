@@ -1,8 +1,26 @@
 aid: volley
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/volley.png
 name: Volley
-description: Volley is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Volley is a San Francisco voice-AI entertainment company, backed by Lightspeed
+  Venture Partners, that builds voice-controlled and connected-TV games. Its catalog
+  includes hits such as Song Quiz, Yes Sire, and officially licensed titles like
+  Jeopardy!, Wheel of Fortune, and Family Feud, playable on Amazon Alexa, Google
+  Assistant, Roku, Fire TV, LG, and Samsung TVs. The company is rebranding its
+  consumer surface as "Weekend." Volley operates as a consumer entertainment
+  product studio and does not publish a public developer API; this profile captures
+  its identity and public web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/volley/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Voice
+- Games
+- Entertainment
+- Smart Speaker
+- Connected TV
+- Artificial Intelligence
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/volley-domain-security.yml
+- type: Website
+  url: https://www.volleygames.com/
+- type: About
+  url: https://www.volleygames.com/about
+- type: Blog
+  url: https://www.volleygames.com/blog
+- type: Support
+  url: https://www.volleygames.com/support
+- type: TermsOfService
+  url: https://www.volleygames.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.volleygames.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
